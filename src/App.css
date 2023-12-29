@@ -1,0 +1,30 @@
+.active{
+    color: black;
+    border-bottom: 3px solid red;
+    padding-bottom: 13px;
+    font-weight: bold;
+}
+::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+html{
+    scrollbar-width: none;
+}
+::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb{
+    background-color:transparent;
+    width: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+::-webkit-scrollbar{
+    width: 14px;
+}
